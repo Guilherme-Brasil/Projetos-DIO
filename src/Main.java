@@ -17,7 +17,7 @@ public class Main {
     curso2.setCargaHoraria(96);
 
     Conteudo conteudo = new Curso(); // Polimorfismo
-
+    Conteudo conteudo1 = new Mentoria(); // Polimorfismo
     Mentoria mentoria = new Mentoria();
     mentoria.setTitulo("Mentoria UML");
     mentoria.setDescricao("Diagramas");
