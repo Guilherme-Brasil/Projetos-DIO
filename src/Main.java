@@ -1,3 +1,4 @@
+import br.com.dio.desafio.dominio.Conteudo;
 import br.com.dio.desafio.dominio.Curso;
 import br.com.dio.desafio.dominio.Mentoria;
 
@@ -14,6 +15,8 @@ public class Main {
     curso2.setTitulo("Redes");
     curso2.setDescricao("Cadeira do 6º Semestre");
     curso2.setCargaHoraria(96);
+
+    Conteudo conteudo = new Curso(); // Polimorfismo
 
     Mentoria mentoria = new Mentoria();
     mentoria.setTitulo("Mentoria UML");
